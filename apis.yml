@@ -1,7 +1,19 @@
 aid: fern-bot
 name: Fern Bot
-description: Fern Bot is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Fern (operating as Ishiki Labs) is a Y Combinator (Winter 2026) physical-AI
+  startup building high-fidelity, custom robot world models that let robotics
+  companies evaluate and train their robot policies at scale in software. Fern
+  provides plug-and-play reinforcement-learning environments generated from a
+  foundational world model: robotics teams seed varied starting scenes from
+  their production environments, test and improve policies entirely in
+  simulation, and Fern generates RL heads on top of existing policies to raise
+  speed and success rates — a continual-learning flywheel where production
+  robots improve every week. Founded in 2025 by CEO Amit Yadav (ex-Meta LLaMA /
+  Reality Labs research scientist) and CTO Robert Xu (ex-Meta Reality Labs and
+  Citadel Securities). As of this profile Fern publishes a marketing site, a
+  whitepaper, and case studies but no public developer API, SDK, or
+  documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/fern-bot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +21,52 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-yc-batch: W2026
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://fern.bot/icon.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Robotics
+- Physical AI
+- Reinforcement Learning
+- World Models
+- Simulation
+- Infrastructure
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://fern.bot
+- type: Whitepaper
+  url: https://fern.bot/whitepaper
+- type: CaseStudies
+  url: https://fern.bot/case-studies
+- type: LinkedIn
+  url: https://www.linkedin.com/company/fernbot
+- type: X
+  url: https://x.com/ishikilabs
+- type: DomainSecurity
+  url: security/fern-bot-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
